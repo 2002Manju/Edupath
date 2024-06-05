@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduPath Home</title>
+        <!-- ICONSCOUT CDN -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+        <!--Font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+        <!-- GOOGLE FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;400;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./course(html).css">
+    </head>
+    <body>
+        <nav>
+            <div class="container   nav_container">
+                <a href="index.html"><h4>EduPath</h4></a>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars "></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply "></i></button>
+            </div>
+        </nav>   
+
+    <div class="sidenav">
+    <a href="./course(css).html">CSS Introduction</a>
+    <a href="./course(CSS S).html">CSS Syntax</a>
+    <a href="./course(css selector).html">CSS Selectors</a>
+    <button class="dropdown-btn">CSS Background 
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="./course(css back).html">Background Color</a>
+        <a href="#">Background Image</a>
+        <a href="#">Background Repeat</a>
+    </div>
+    <a href="#contact">Padding</a>
+    </div>
+
+    <div class="container">
+        <div class="main">
+            
+            <br/>
+            <a href="./course(CSS S).html" class="btn btn-primary">Previous &rsaquo;</a>
+            <a href="./course(css back).html" class="btn btn-primary">Next &rsaquo;</a><br>
+            <h1>CSS Selectors</h1><br>
+            <p>A CSS selector selects the HTML element(s) you want to style.</p><br>
+            <h1>CSS Selectors</h1><br>
+            <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+            <p>We can divide CSS selectors into five categories:</p>
+            <ol>
+                <li>1.Simple selectors (select elements based on name, id, class)</li>
+               <li>2.Combinator selectors (select elements based on a specific relationship between them)</li>
+               <li>3.Pseudo-class selectors (select elements based on a certain state)</li>
+               <li>4.Pseudo-elements selectors (select and style a part of an element)</li>
+               <li>5.Attribute selectors (select elements based on an attribute or attribute value)</li>
+            </ol><br>
+        
+
+        <div class="section">
+            <h1>The CSS id Selectors</h1><br>
+            <p>The id selector uses the id attribute of an HTML element to select a specific element.<br>
+               The id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+               To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p><br>
+
+               <h3>Example</h3>
+               <p>The CSS rule below will be applied to the HTML element with id="para1":</p>
+               <img src="./image/selector.png" alt="image of our"><br><br>
+
+               <h1>The CSS class Selector</h1><br>
+                <p>The class selector selects HTML elements with a specific class attribute.</p>
+                <p>To select elements with a specific class, write a period (.) character, followed by the class name.</p><br>
+                
+               <h3>Example</h3>
+                <p>In this example all HTML elements with class="center" will be red and center-aligned: </p><br>
+                <img src="./image/class.png" alt="image of our"><br><br>
+
+               <p>You can also specify that only specific HTML elements should be affected by a class.</p><br>
+
+                <h3>Example</h3>
+                <p>In this example only &lt;p&gt; elements with class="center" will be red and center-aligned: </p> 
+                <img src="./image/class1.png" alt="image of our"><br><br>
+
+                 <p>HTML elements can also refer to more than one class.</p><br>
+
+                    <h3>Example</h3>
+                    <p> In this example the &lg;p&gt; element will be styled according to class="center" and to class="large": </p>
+                    <img src="./image/class2.png" alt="image of our">
+
+                    <h1>The CSS Universal Selector</h1>
+                       <p>The universal selector (*) selects all HTML elements on the page.</p><br>
+                        
+                        <h3>Example</h3>
+                        <p>The CSS rule below will affect every HTML element on the page: </p>
+                        <img src="./image/universal.png" alt="image of our"><br>
+                        <h1>The CSS Grouping Selector</h1><br>
+                           <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+                           <p>Look at the following CSS code (the h1, h2, and p elements have the same style definitions):</p><br>
+                           <img src="./image/gropu.png" alt="image of our">
+                           <p>It will be better to group the selectors, to minimize the code.</p>
+
+                            <p>To group selectors, separate each selector with a comma.</p><br>
+                            
+                            <h3>Example</h3>
+                             <p>In this example we have grouped the selectors from the code above: </p>
+                             <img src="./image/group1.png" alt="image of our"><br><br>
+
+                                <h1>All CSS Simple Selectors</h1>
+                                <img src="./image/ASS.png" alt="image of our"><br><br>
+
+
+
+
+
+        </div>
+       
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>EduPath</h4></a>
+                <p>Edupath is an innovative online learning platform designed to provide comprehensive and personalized educational.</p>
+            </div>
+    
+                <div class="footer_2">
+                    <h4>Primary Links</h4>
+                    <ul class="primarylinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="contact.html">Contact</a></li>  
+                    </ul>
+                </div>
+                
+                <div class="footer_3">
+                    <h4>Privacy</h4>
+                    <ul class="Privacy">
+                        <li><a href="#">Privarcy Policy</a></li>
+                        <li><a href="#">Terms and Condition</a></li>
+                        <li><a href="#">Refund policy</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer_4">
+                    <h4>Contact</h4>
+                    <div>
+                        <p>...</p>
+                        <p>.....</p>
+                </div>
+    
+                    <ul class="footer_social">
+                        <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                        <li><a href="#"><i class="uil uil-github"></i></a></li>
+                        <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                    </ul>
+              </div>
+        </div>
+    </footer>
+      <script src="./course(html).js"></script>
+</div>
+</body>
+</html>

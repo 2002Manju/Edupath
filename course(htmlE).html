@@ -1,0 +1,188 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduPath Home</title>
+        <!-- ICONSCOUT CDN -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+        <!--Font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+        <!-- GOOGLE FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;400;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./course(html).css">
+    </head>
+    <body>
+        <nav>
+            <div class="container   nav_container">
+                <a href="index.html"><h4>EduPath</h4></a>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars "></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply "></i></button>
+            </div>
+        </nav>   
+
+        <div class="sidenav">
+            <a href="./course(html).html">HTML Introduction</a>
+            <a href="./course(htmlB).html">HTML Basic</a>
+            <a href="./course(htmlE).html">HTML Elements</a>
+            
+            <button class="dropdown-btn">HTML Colors 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="./course(CRGB).html">RGB</a>
+              <a href="/course(HEX).html">HEX</a>
+              <a href="./course(HSL).html">HSL</a>
+            </div>
+            
+          </div>
+          
+
+    <div class="container">
+        <div class="main">
+            <h2 class="text">HTML Elements</h2>
+            <br/>
+            <div class="button"><a href="./course(htmlB).html" class="btn btn-primary">&lsaquo; Previous</a></div>
+            <a href="./course(htmlc).html" class="btn btn-primary">Next &rsaquo;</a>
+            <br>
+        
+            <div class="content">
+                <p>An HTML element is defined by a start tag, some content, and an end tag.</p><br>
+                
+                <div class="section">
+                    <h1>HTML Elements</h1><br>
+                    <p>The HTML element is everything from the start tag to the end tag:</p>
+                    <pre>&lt;tagname&gt; Content goes here..&lt;/tagname&gt;</pre><br>
+                    
+                    <h3>Examples of some HTML elements:</h3>
+                    <p>&lt;h1&gt; My First Heading &lt;/h1&gt;</p>
+                       <p> &lt;p&gt; My first paragraph..&lt;/p&gt;</p>
+                        <img src="./image/starting.png" alt="image of our"/><br/><br/>
+
+                </div>
+                
+                <div class="section">
+                    <h1>Nested HTML Elements</h1><br>
+                    <p>HTML elements can be nested (this means that elements can contain other elements).</p>
+                    <p>All HTML documents consist of nested HTML elements.</p>
+                    
+                    <p>The following example contains four HTML elements (&lt;html&gt;, &lt;body&gt;, &lt;h1&gt; and &lt;p&gt;):</p>
+                    <img src="./image/nested.png" alt="image of our"/><br/><br/>
+                    
+                    <h3>Example Explained</h3>
+                    <p>The &lt;html&gt; element is the root element and it defines the whole HTML document.</p>
+                    <p>It has a start tag &lt;html&gt; and an end tag &lt;/html&gt;.</p>
+                    <p>Then, inside the &lt;html&gt; element there is a &lt;body&gt; element:</p>
+                    <img src="./image/EE.png" alt="image of our"/><br/><br/>
+
+                                        
+                        
+                    <p>The &lt;body&gt; element defines the document's body.</p>
+                    <p>It has a start tag &lt;body&gt; and an end tag &lt;/body&gt;</p>
+                    <p>Then, inside the &lt;body&gt; element there are two other elements: &lt;h1&gt; and &lt;p&gt;</p>
+                    
+                    <img src="./image/HP.png" alt="image of our"/><br/><br/>
+                    
+                    <p>The &lt;h1&gt; element defines a heading.</p>
+                    <p>It has a start tag &lt;h1&gt; and an end tag &lt;/h1&gt;</p>
+                    <img src="./image/H1.png" alt="image of our"/><br/><br/>
+                    
+                    <p>The &lt;p&gt; element defines a paragraph.</p>
+                    <p>It has a start tag &lt;p&gt; and an end tag &lt;/p&gt;</p>
+                    <img src="./image/p.png" alt="image of our"/><br/><br/>
+                </div>
+                
+                <div class="section">
+                    <h1>Never Skip the End Tag</h1>
+                    <p>Some HTML elements will display correctly, even if you forget the end tag:</p>
+                    <img src="./image/neverskip.png" alt="image of our"/><br/>
+                    <p><b>However, never rely on this! Unexpected results and errors may occur if you forget the end tag!</b></p><br>
+                </div>
+                
+                <div class="section">
+                    <h1>Empty HTML Elements</h1>
+                    <p>HTML elements with no content are called empty elements.</p>
+                    <p>The &lt;br&gt; tag defines a line break, and is an empty element without a closing tag:</p>
+                    <br>
+                    <img src="./image/empty.png "alt="image of our"/><br/><br>
+                    
+                    <h3>Example</h3>
+                    <pre>&lt;p&gt; This is a&lt;br&gt;paragraph with a line break. &lt;/p&gt;</pre>
+                </div>
+                
+                <div class="section">
+                    <h1><br>HTML is Not Case Sensitive</h1>
+                    <p><br>HTML tags are not case sensitive: &lt;p&gt; means the same as &lt;p&gt;.</p>
+                    <p>The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.</p><br>
+                </div>
+            </div>
+        </div>
+    
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>EduPath</h4></a>
+                <p>Edupath is an innovative online learning platform designed to provide comprehensive and personalized educational.</p>
+            </div>
+    
+                <div class="footer_2">
+                    <h4>Primary Links</h4>
+                    <ul class="primarylinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="contact.html">Contact</a></li>  
+                    </ul>
+                </div>
+                
+                <div class="footer_3">
+                    <h4>Privacy</h4>
+                    <ul class="Privacy">
+                        <li><a href="#">Privarcy Policy</a></li>
+                        <li><a href="#">Terms and Condition</a></li>
+                        <li><a href="#">Refund policy</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer_4">
+                    <h4>Contact</h4>
+                    <div>
+                        <p>+91 8951096577</p>
+                        <p>mdmanjuitagi@gmail.com</p>
+                    </div>
+    
+                    <ul class="footer_social">
+                        <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                        <li><a href="#"><i class="uil uil-github"></i></a></li>
+                        <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+</div>
+      
+</div>
+
+
+<script src="./course(html).js"></script>
+</body>
+</html>
+
+    
+            
